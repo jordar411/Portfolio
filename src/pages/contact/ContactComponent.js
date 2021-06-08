@@ -30,7 +30,7 @@ function Contact(props) {
             <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                src="https://media-exp3.licdn.com/dms/image/C5603AQFY1ylzqnH8KQ/profile-displayphoto-shrink_800_800/0/1604855540838?e=1628726400&v=beta&t=lqQpq7_hQSxvB3yRq1-xqK75oXOEMtGQ5lsNz74-H4g"
                 alt=""
               />
             </div>
@@ -49,10 +49,11 @@ function Contact(props) {
               </p>
               <SocialMedia />
               <br />
-              <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
-              </a>
+              <div className="blogsite-btn-div">
+                <a {...styles} className="general-btn" href={blogSection.link}>
+                  E-Mail
+                </a>
+              </div>
             </div>
           </div>
         </Fade>
@@ -70,7 +71,7 @@ function Contact(props) {
               </p>
               <div className="blogsite-btn-div">
                 <a {...styles} className="general-btn" href={blogSection.link}>
-                  My Twitter Profile
+                  Download (PDF)
                 </a>
               </div>
             </div>

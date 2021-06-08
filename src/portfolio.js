@@ -1,35 +1,27 @@
-/* Change this file to get your personal Porfolio */
-
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
 };
 
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Harikrushn",
-  logo_name: "harry.k()",
-  nickname: "harry / picleric",
-  full_name: "Harikrushn Kanani",
-  subTitle:
-    "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
-  resumeLink:
-    "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
-  mail: "mailto:hkanani191@gmail.com",
+  title2: "Jordan Caroleo",
+  logo_name: "JCNY.dev( )",
+  nickname: "J$",
+  full_name: "Jordan Caroleo",
+  subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
+  resumeLink: "#",
+  mail: "mailto:jordan.caroleo91@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/harikanani",
-  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
+  github: "https://github.com/jordar411",
+  linkedin: "https://www.linkedin.com/in/jordan-caroleo",
   gmail: "hkanani191@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/harikrishan.kanani/",
-  twitter: "https://twitter.com/Harikrushn9",
-  instagram: "https://www.instagram.com/kanani_025/",
+  twitter: "https://twitter.com/JCNY411",
 };
 
 const skills = {
@@ -40,9 +32,9 @@ const skills = {
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
+        "⚡ Developing mobile applications using React Native",
         "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+        "⚡ Integration of third party services such as Firebase/ AWS & RDS / Digital Ocean",
       ],
       softwareSkills: [
         {
@@ -65,13 +57,6 @@ const skills = {
           style: {
             backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
           },
         },
         {
@@ -102,20 +87,6 @@ const skills = {
             color: "#439743",
           },
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
         {
           skillName: "Java",
           fontAwesomeClassname: "simple-icons:java",
@@ -124,26 +95,12 @@ const skills = {
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "Spring",
+          fontAwesomeClassname: "simple-icons:spring",
           style: {
-            color: "#02569B",
+            color: "#f89820",
           },
         },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -159,13 +116,6 @@ const skills = {
           },
         },
         {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
-        {
           skillName: "Apache",
           fontAwesomeClassname: "simple-icons:apache",
           style: {
@@ -175,20 +125,6 @@ const skills = {
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
           style: {
             color: "#E94E32",
           },
@@ -208,7 +144,8 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Experience with managing CI/CD",
+        "⚡ Experience with managing development lifecycle with JIRA",
       ],
       softwareSkills: [
         {
@@ -216,13 +153,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
           },
         },
         {
@@ -267,6 +197,27 @@ const skills = {
             color: "#5b77ef",
           },
         },
+        {
+          skillName: "GitLab",
+          fontAwesomeClassname: "simple-icons:gitlab",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "Bitbucket",
+          fontAwesomeClassname: "simple-icons:bitbucket",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "JIRA",
+          fontAwesomeClassname: "simple-icons:jira",
+          style: {
+            color: "#FF9900",
+          },
+        },
       ],
     },
   ],
@@ -275,17 +226,39 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
-      subtitle: "Diploma in Information Technology",
-      logo_path: "ssgandhy.png",
-      alt_name: "SETI",
-      duration: "2018 - Present",
+      title: "Excelsior College ",
+      subtitle: "Bachelor of Science in Information Technology",
+      logo_path: "excelsior.png",
+      alt_name: "Excelsior",
+      duration: "2018 - 2021",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I have implemented several projects.",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link:
+        "https://www.excelsior.edu/program/bachelor-of-science-in-information-technology/",
+    },
+    {
+      title: "Springboard",
+      subtitle: "Software Engineering Certification",
+      logo_path: "SB.png",
+      alt_name: "Springboard",
+      duration: "2020 - 2021",
+      descriptions: [
+        "⚡ 800+ hour hands-on curriculum with 1:1 industry expert mentor oversight, and completion of 4 portfolio projects covering front-end web development, back-end web development, and full-stack development.",
+      ],
+      website_link:
+        "https://www.excelsior.edu/program/bachelor-of-science-in-information-technology/",
+    },
+    {
+      title: "State University of New York at Stony Brook",
+      subtitle: "Bachelor of Science in Economics",
+      logo_path: "SBU.png",
+      alt_name: "SUNY Stony Brook",
+      duration: "2009 - 2013",
+      descriptions: [],
+      website_link: "https://www.stonybrook.edu/",
     },
   ],
 };
@@ -293,71 +266,33 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
+      title: "Amazon Web Services Cloud Practitioner Essentials",
+      subtitle: "AWS Cloud Practitioner",
+      logo_path: "aws.png",
+      certificate_link: "#",
+      alt_name: "AWS",
       // color_code: "#2AAFED",
       color_code: "#47A048",
-    },
-    {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
     },
     {
       title: "A300: Atlas Security",
       subtitle: "MongoDB University",
       logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
+      certificate_link: "#",
       alt_name: "MongoDB University",
       // color_code: "#F6B808",
       color_code: "#47A048",
     },
     {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
+      title: "J.P. Morgan Chase Software Engineering Virtual Experience",
+      subtitle: "J.P. Morgan Chase",
+      logo_path: "jpm.png",
+      certificate_link: "#",
+      alt_name: "J.P. Morgan",
+      // color_code: "#F6B808",
+      color_code: "#47A048",
     },
-    {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
-    },
-    {
-      title: "Hack20",
-      subtitle: "Flutter Internation Hackathon",
-      logo_path: "flutter.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter Internation Hackathon",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
-      certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
+
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -373,105 +308,61 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Volunteership",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "See below for a list of selected technology-related experiences I've been fortunate enough to learn from. For full list of experiences and work history, please download my resume.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Full Stack Developer (Intern)",
-          company: "Valora Infotech",
-          company_url: "https://valora-infotech.business.site/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
-          location: "Office",
-          description:
-            "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          title: "Jr Software Developer",
+          company: "FINRA",
+          company_url: "https://www.finra.org/#/",
+          logo_path: "finra.png",
+          duration: "April 2021 - Present",
+          location: "NYC / Remote",
+          description: "",
           color: "#0071C5",
         },
         {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
-          location: "Work From Home",
+          title: "Coding / Career Coach",
+          company: "Career Karma",
+          company_url: "https://careerkarma.com/",
+          logo_path: "ck.png",
+          duration: "January 2021 - Present",
+          location: "Remote",
           description:
-            "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+            "Directs 5+ person workshops offering introduction to Java, Python, and other programming languages, while preparing tailored curriculums for all proficiency levels and performing one-on-one mentorship for optimal skill development.",
+          color: "#0071C5",
+        },
+        {
+          title: "Software Engineer",
+          company: "Mind School",
+          company_url: "https://www.linkedin.com/company/wearemindschool/",
+          logo_path: "mind-school.jpg",
+          duration: "Oct 2020 - April 2021",
+          location: "NYC / Remote",
+          description:
+            "Developed a viable application prototype within 3-month period for this EdTech startup, preparing product demonstration, and securing a $50K production grant from New York University.",
           color: "#ee3c26",
-        }
+        },
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
+          title: "Technology & Coding Mentor / Advisory Board Member",
+          company: "Kids Clubhouse of Suffolk",
+          company_url: "http://kidsclubhousesuffolk.com/",
+          logo_path: "clubhouse.png",
+          duration: "Jan 2019 - Present",
+          location: "Long Island, NY",
           description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+            "As a board member and mentor of this 501c3 after-school program, I assist by serving our youth at the elementary, junior high, and high school age levels within our local communities. Our mission is to help empower our kids by offering activities in the arts, sciences, math, health & wellness, physical education, technology, recreation, and many more areas. As a member of the board, I have the responsibility of planning special events, fundraisers, and contributing to our education plans. As a mentor, I assist with the education program through my knowledge of technology, teaching basic topics as an introduction to coding and building projects using the python and the Raspberry Pi coding kit.",
           color: "#4285F4",
-        },
-        {
-          title: "Campus Hustler",
-          company: "Skillenza",
-          company_url: "https://skillenza.com/",
-          logo_path: "skillenza.png",
-          duration: "Feb 2021 - Present",
-          location: "Work from Home",
-          description: "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-          color: "#196acf",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-          "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
         },
       ],
     },
@@ -482,7 +373,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS or Spring Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -490,15 +381,15 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
-    description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+
+    description: "Please don't hesitate to reach out to me anytime!",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Resume",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
+      "Please download my resume for full details on experience and work history.",
+    link:
+      "https://www.dropbox.com/s/2kld62kb8wzq0ur/JordanCaroleo_Resume.pdf?dl=0",
     avatar_image_path: "blogs_image.svg",
   },
 };
@@ -506,10 +397,60 @@ const contactPageData = {
 const projects = {
   data: [
     {
+      id: "6",
+      name: "Stock-Tracker-App",
+      url: "https://cw-stock-tracker.herokuapp.com/",
+      description:
+        "Portfolio application to allow for the review and tracking of stock data.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+      ],
+    },
+    {
+      id: "6",
+      name: "EasyTrade-Robinhood-Clone",
+      url: "https://github.com/jordar411/Robinhood-React-Clone",
+      description: "Created a Robinhood interface clone using React",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+      ],
+    },
+    {
       id: "0",
       name: "AutomateInstaPyBot",
-      url: "https://github.com/harikanani/AutomateInstaPyBot",
-      description: "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
+      url: "https://github.com/jordar411/AutomateInstaPyBot",
+      description:
+        "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
       languages: [
         {
           name: "Python",
@@ -520,7 +461,7 @@ const projects = {
     {
       id: "1",
       name: "react-twitter-clone",
-      url: "https://github.com/harikanani/react-twitter-clone",
+      url: "https://github.com/jordar411/react-twitter-clone",
       description:
         "A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.",
       languages: [
@@ -544,27 +485,10 @@ const projects = {
     },
     {
       id: "2",
-      name: "node-blockchain",
-      url: "https://github.com/harikanani/node-blockchain",
-      description:
-        "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "TypeScript",
-          iconifyClass: "logos-typescript",
-        },
-      ],
-    },
-    {
-      id: "3",
       name: "top-crypto-gainers",
-      url: "https://github.com/harikanani/top-crypto-gainers",
+      url: "https://github.com/jordar411/jc-crypto-tracker",
       description:
-        "A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.",
+        "A cryptocurrency price tracking app built with Next.js, with usage of the react-parallax-tilt npm package.",
       languages: [
         {
           name: "HTML5",
@@ -582,128 +506,17 @@ const projects = {
           name: "ReactJS",
           iconifyClass: "logos-react",
         },
-      ],
-    },
-    {
-      id: "4",
-      name: "personal-portfolio",
-      url: "https://github.com/harikanani/personal-portfolio",
-      description:
-        "A simple command line interface based quiz app to know more about me :).",
-      languages: [
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
+          name: "Next",
+          iconifyClass: "logos-nextjs",
         },
       ],
     },
     {
       id: "3",
-      name: "node_express_crud_api_starter",
-      url: "https://github.com/harikanani/node_express_crud_api_starter",
-      description:
-        "Simple NodeJS Express CRUD Operations API starter.",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "node-web-scrapper",
-      url: "https://github.com/harikanani/node-web-scrapper",
-      description:
-        "A Simple web scrapper that scrap the information of amazon products such as price.It also scrap Wikipedia Data such as birthdate.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "harikanani.github.io",
-      url: "https://github.com/harikanani/harikanani.github.io",
-      description:
-        "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Automate Attendace",
-      url: "https://github.com/harikanani/Node_Python",
-      description:
-        "Automation of Online Attendance using node js and python",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Automate Discord Bot",
-      url: "https://github.com/harikanani/AutomateDiscordBot",
-      description:
-        "A Discord Bot to send Automatic messages to serer channel in regular time difference.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Python Selenium",
-          iconifyClass: "logos-selenium",
-        },
-        {
-          name: "Chromium Browser",
-          iconifyClass: "openmoji-chromium",
-        },
-      ],
-    },
-    {
-      id: "8",
       name: "Flask Blog",
       url: "https://github.com/harikanani/flask_blog",
-      description:
-        "A Simple Blog Web Application made using Flask Framework",
+      description: "A Simple Blog Web Application made using Flask Framework",
       languages: [
         {
           name: "Python",
@@ -720,79 +533,6 @@ const projects = {
         {
           name: "CSS3",
           iconifyClass: "vscode-icons:file-type-css",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Netflix top series",
-      url: "https://github.com/harikanani/netflix-top-series",
-      description:
-        "List of Top Netflix Series which is deployed to vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "COVID-19 Tracker",
-      url: "https://github.com/harikanani/Covid19TrackerReact",
-      description: "Simple Covid-19 Tracker made using React and deployed to Vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Food Order Static Website",
-      url: "https://github.com/harikanani/food-order-website",
-      description: "A simple static website related to food restaurants service. this is reasponsive as well.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "PHP",
-          iconifyClass: "logos-php",
         },
       ],
     },
