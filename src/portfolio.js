@@ -20,7 +20,7 @@ const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/jordar411",
   linkedin: "https://www.linkedin.com/in/jordan-caroleo",
-  gmail: "hkanani191@gmail.com",
+  gmail: "mailto:jordan.caroleo91@gmail.com",
   twitter: "https://twitter.com/JCNY411",
 };
 
