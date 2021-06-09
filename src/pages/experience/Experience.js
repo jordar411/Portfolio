@@ -3,12 +3,24 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import "./Experience.css";
-import { experience } from "../../portfolio.js";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
+import { experience, contactPageData } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import { style } from "glamor";
+
+const blogSection = contactPageData.blogSection;
 
 function Experience(props) {
   const theme = props.theme;
+
+  const styles = style({
+    backgroundColor: `${theme.accentBright}`,
+    ":hover": {
+      boxShadow: `0 5px 15px ${theme.accentBright}`,
+    },
+  });
+
   console.log(props.setTheme);
   return (
     <div className="experience-main">
@@ -32,12 +44,19 @@ function Experience(props) {
               >
                 {experience["subtitle"]}
               </h3>
+
               <p
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 {experience["description"]}
               </p>
+              <SocialMedia />
+              <div className="blogsite-btn-div">
+                <a {...styles} className="general-btn" href={blogSection.link}>
+                  Resume ( .PDF )
+                </a>
+              </div>
             </div>
           </div>
         </Fade>

@@ -373,7 +373,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS or Spring Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of the latest technology tools. My best experience is to create NodeJS or Spring Backend Projects, Python Scripting, and React Front-End. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -385,9 +385,8 @@ const contactPageData = {
     description: "Please don't hesitate to reach out to me anytime!",
   },
   blogSection: {
-    title: "Resume",
-    subtitle:
-      "Please download my resume for full details on experience and work history.",
+    title: ": )",
+    subtitle: "Thanks for stopping by. Have a great day!",
     link:
       "https://www.dropbox.com/s/2kld62kb8wzq0ur/JordanCaroleo_Resume.pdf?dl=0",
     avatar_image_path: "blogs_image.svg",
@@ -461,7 +460,7 @@ const projects = {
     {
       id: "1",
       name: "react-twitter-clone",
-      url: "https://github.com/jordar411/react-twitter-clone",
+      url: "https://react-twitter-clone-omega.vercel.app/",
       description:
         "A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.",
       languages: [
@@ -486,7 +485,7 @@ const projects = {
     {
       id: "2",
       name: "top-crypto-gainers",
-      url: "https://github.com/jordar411/jc-crypto-tracker",
+      url: "http://jc-crypto-tracker-git-master-jordar411.vercel.app/",
       description:
         "A cryptocurrency price tracking app built with Next.js, with usage of the react-parallax-tilt npm package.",
       languages: [
@@ -515,7 +514,7 @@ const projects = {
     {
       id: "3",
       name: "Flask Blog",
-      url: "https://github.com/harikanani/flask_blog",
+      url: "https://github.com/jordar411/flask_blog",
       description: "A Simple Blog Web Application made using Flask Framework",
       languages: [
         {
