@@ -20,7 +20,7 @@ const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/jordar411",
   linkedin: "https://www.linkedin.com/in/jordan-caroleo",
-  gmail: "mailto:jordan.caroleo91@gmail.com",
+  gmail: "jordan.caroleo91@gmail.com",
   twitter: "https://twitter.com/JCNY411",
 };
 
@@ -31,8 +31,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using React Native",
+        "⚡ Building responsive website front end using ReactJS & Angular",
+        "⚡ Developing mobile applications using React Native & Flutter",
         "⚡ Creating application backend in Node, Express & Flask",
         "⚡ Integration of third party services such as Firebase/ AWS & RDS / Digital Ocean",
       ],
@@ -143,8 +143,7 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with managing CI/CD",
+        "⚡ Experience with managing CI/CD w/ Jenkins, Gitlab, Bitbucket",
         "⚡ Experience with managing development lifecycle with JIRA",
       ],
       softwareSkills: [
@@ -275,6 +274,15 @@ const certifications = {
       color_code: "#47A048",
     },
     {
+      title: "CompTIA ITF+",
+      subtitle: "CompTIA IT Fundamentals",
+      logo_path: "comptia.png",
+      certificate_link: "#",
+      alt_name: "CompTIA",
+      // color_code: "#2AAFED",
+      color_code: "#FFA500",
+    },
+    {
       title: "A300: Atlas Security",
       subtitle: "MongoDB University",
       logo_path: "mongo.png",
@@ -317,7 +325,7 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Jr Software Developer",
+          title: "Software Developer",
           company: "FINRA",
           company_url: "https://www.finra.org/#/",
           logo_path: "finra.png",
